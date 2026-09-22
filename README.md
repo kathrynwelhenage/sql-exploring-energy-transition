@@ -49,8 +49,8 @@ INNER JOIN wb_data USING (iso_code)
 
 ### Methodological decisions
 - **Electricity rather than total energy**: electricity generation was chosen over broader energy metrics, as it's more directly relevant to an energy-sector audience and captures the transition most visibly, while total energy also includes transport, heating, and industrial fuel use.
-- **World Bank regions over OWID's own groupings**: World Bank's 7 regions were used instead of OWID's continent-based classification, as they group countries in ways more reflective of shared economic and geographic context (e.g. separating North America from Latin America & the Caribbean)
-- **2003-2023 as the comparison window**: a 20-year baseline ending in 2023
+- **World Bank regions over OWID's own groupings**: World Bank's 7 regions were used instead of OWID's continent-based classification, as they group countries in ways more reflective of shared economic and geographic context (e.g. separating North America from Latin America & the Caribbean).
+- **2003-2023 as the comparison window**: a 20-year baseline ending in 2023.
 - **100TWh threshold (Q2-4)**: leaderboard-style questions are restricted to countries generating over 100TWh, to focus on larger, more established generators.
 
  
